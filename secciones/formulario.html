@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="/img/favicon-Municipalidad.ico" type="image/x-icon">
+    <title>Pasaje Dardo Rocha</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a href="./index.html"><img src="/img/logo-municipalidad.jpeg" alt="logo-municipalidad"></a>
+            
+            <ul class="menu-horizontal">
+                <li><a href="/secciones/historia.html"> Historia </a></li>
+                <li><a href="/secciones/museo.html"> Museo </a></li>
+                <li><a href="/secciones/taller.html">Talleres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Informacion de los talleres</h2>
+
+    <h3>Taller de danza</h3>
+    <p>Horarios</p>
+    <p>Lunes de 14:00hs a 16:00hs</p>
+    <p>Miercoles de 15:00hs a 17:00hs</p>
+    <p>viernes de 16:00hs a 18:00hs</p>
+
+    <p>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</p>
+
+    <h3>Taller de musica</h3>
+    <p>Horarios</p>
+    <p>Martes de 14:00hs a 16:00hs</p>
+    <p>Jueves de 15:00hs a 17:00hs</p>
+    <p>Sabados de 16:00hs a 18:00hs</p>
+
+    <p>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</p>
+
+    <h2>Formulario de Inscripción</h2>
+
+    <!--Nombre-->
+    <h3>Nombre Completo</h3>
+    <label for="nombre">Nombre Completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <!--Correo electrónico-->
+    <h3>Correo Electrónico</h3>
+    <label for="email">Correo Electrónico</label>
+    <input type="text" id="email" name="email" required>
+
+    <!--Seleccion de inscripción-->
+    <h3>Seleccionar taller</h3>
+
+    <label for="Taller de danza">Taller de danza</label>
+    <input type="checkbox" id="tallerDanza" name="Taller de danzas" value="tallerDanza">
+    
+    <label for="Taller de musica">Taller de musica</label>
+    <input type="checkbox" id="tallerMusica" name="Taller de musica" value="tallerMusica">
+
+    <!--Menu desplegable para que seleccionen el horario-->
+    <h3>Seleccionar horario</h3>
+
+    <label for="horario">Horario del taller de danza</label>
+        <select name="horario" id="horario">
+            <option value="Lunes de 14:00hs a 16:00hs">Lunes de 14:00hs a 16:00hs</option>
+            <option value="Miercoles de 15:00hs a 17:00hs">Miercoles de 15:00hs a 17:00hs</option>
+            <option value="Viernes de 16:00hs a 18:00hs">Viernes de 16:00hs a 18:00hs</option>
+        </select>
+
+        <label for="horario">Horario del taller de musica</label>
+        <select name="horario" id="horario">
+            <option value="Martes de 14:00hs a 16:00hs">Martes de 14:00hs a 16:00hs</option>
+            <option value="Jueves de 15:00hs a 17:00hs">Jueves de 15:00hs a 17:00hs</option>
+            <option value="Sabados de 16:00hs a 18:00hs">Sabados de 16:00hs a 18:00hs</option>
+        </select>
+
+
+    <!-- Aceptar Términos y Condiciones -->
+    <h3>Terminos y condicions</h3>
+    <label for="terminos">
+        <input type="checkbox" id="terminos" name="terminos" required> Acepto los términos y condiciones
+    </label>
+
+    <!-- Botón de Envío -->
+    <input type="submit" class="submit-btn" value="Inscribirse">
+
+
+
+    <footer>
+        <img src="../img/Logo-municipalidad-_-Blanco-FOOTER-1.png" alt="">
+        <p>
+            Centro Cultural Pasaje Dardo Rocha 50 entre 6 y 7 | de 9 a 19hs | Tel. 221 4252101 | correo electrónico: escuelatallerlp@gmail.com
+        </p>
+    </footer>
+</body>
+</html>
