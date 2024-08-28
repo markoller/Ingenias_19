@@ -1,0 +1,1051 @@
+body {
+    background-color: #f9f9f9;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+p, a, li, ul, ol, button {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header img {
+    width: 200px;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-horizontal{
+    margin:20px 0px 20px;
+    width: 500px;
+    align-items: flex-start;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.menu-horizontal li a{
+    display: block;
+    padding: 10px 20px;
+    color: darkcyan;
+    text-decoration: none;
+
+}
+
+.menu-horizontal li:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color: rgb(0, 8, 8);
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+.titulos{
+color: #9b51e0;
+margin: 10px;
+text-align: center;
+}
+/*---MAIN 1---*/
+
+.main1{
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/pasaje-dardo-rocha.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main1-titulo{
+width: 100%;
+color: white;
+text-align: center;
+font-size: 60px;
+
+}
+
+.main1-texto {
+color: white;
+text-align: center;
+width: 80%;
+font-size: 20px;
+}
+
+/*---MAIN 2---*/
+
+.main2 {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 100px;
+}
+
+.main2-talleres {
+width: 40vw;
+height: 40vh;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/foto-taller-danza.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.main2-museo {
+width: 40vw;
+height: 40vh;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/museo-arte.jpeg);
+background-size: cover;
+background-position: center;
+}
+
+.main2-talleres a, .main2-museo a {
+color: white;
+text-decoration: none;
+}
+
+.main2-talleres a:hover, .main2-museo a:hover {
+color: #9b51e0;
+background-color: #ffffffd7;
+margin: 5px;
+padding: 10px;
+border-radius: 30px;
+}
+
+/*---texto---*/
+
+p.texto {
+font-family: "Work Sans", sans-serif;
+font-weight: normal;
+font-size: 20px;;
+text-align: center; 
+padding-left: 10%;
+padding-right: 10%;
+}
+
+/*---FOOTER---*/
+
+    
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #9fa6ae;
+    padding: 16px 0;
+    }
+    
+    footer img {
+    width: 150px;
+    }
+    
+    footer p {
+    width: 80%;
+    margin: 10px;
+    
+    }
+
+/* --- PAGINA TALLERES --- */
+.titulo-talleres{
+    color: #FE0065;
+    margin: 10px;
+    text-align: center;
+}
+
+.descripcion {
+    margin: 60px auto;
+}
+
+.contenedor-carrusel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FE0065;
+}
+
+.contenedor-carrusel section{
+    margin: 20px auto;
+}
+
+.carrusel {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.texto-carrusel {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.texto-carrusel p {
+    font-weight: normal;
+}
+
+.carrusel-item {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 20%; /* Ancho por defecto para desktop */
+    height: auto;
+    margin: 20px;
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.carrusel-item img {
+    width: 90%;
+    height: 8vw;
+    align-self: center;
+}
+
+.boton-carrusel {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.boton-carrusel-desactivado {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.boton-carrusel button{
+    cursor: pointer;
+    color: #1d1d1d;
+    height: 44px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: #9fa6ae;
+    border-style: solid;
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: bold;
+    
+}
+
+.boton-carrusel-desactivado button{
+    color: #1d1d1d;
+    height: 44px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: #9fa6ae;
+    border-style: solid;
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: bold;
+    opacity: 50%;
+    
+}
+
+.boton-carrusel button:hover {
+    background-color: #E6E6E6;
+}
+
+.icono {
+    margin: 20px;
+}
+
+.ubicacion {
+    list-style: none;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ubicacion .icono img{
+    width: 100px;
+}
+
+.album-fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.slider{
+    height: 400px;
+    margin: 60px auto;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    width: calc(550px * 12);
+    animation: scroll 30s linear infinite;
+}
+
+.slider-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-550px * 6));
+    }
+}
+
+.slide{
+    height: 300px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    padding: 55px;
+    perspective: 100px;
+}
+
+.slider img {
+    width: 100%;
+    transition: transform 1s;
+}
+
+.slider img:hover{
+    transform: translateZ(20px);
+}
+
+/*---PÁGINA TALLER DANZA---*/
+.banner {
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/album2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 100px !important; 
+    color: white;
+}
+
+.alerta {
+    color: #FE0065;
+}
+
+
+.clase hr {
+    color: gray;
+    border-style: solid;
+    border-width: 1px;
+    width: 60%;
+    margin-left: 0;
+}
+
+.clase h5{
+    margin: 0;
+}
+
+.cuerpo {
+    display: grid;
+    
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50%;
+    gap: 20px;
+
+    grid-template-areas: 
+        "clases-area form-area";
+}
+
+.horarios {
+    grid-area: clases-area;
+    width: 100%;
+}
+
+
+.formulario {
+    grid-area: form-area;
+    background-color: rgb(0 0 0 / .8);
+    color: white;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.usuariosInscriptos {
+    position: relative;
+    top: 120px;
+    color: black;
+}
+
+.grupo {
+    width: 60%;
+}
+
+.grupo input{
+    width: 100%;
+    height: 28px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.grupo2 {
+    width: 100%;
+    margin: 4px;
+}
+
+.grupo2 select {
+    width: 100%;
+    height: 32px;
+    border-radius: 6px;
+}
+
+.grupo2 .check {
+    width: 20px;
+    height: 20px;
+}
+
+.botonform{
+    width: 100%;
+}
+
+.botonform .submit-btn {
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #FE0065;
+    border-style: none;
+    color: white;
+    margin: 50px auto 30px auto;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/*---PÁGINA TALLER MÚSICA---*/
+
+.banner2 {
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/taller-musica.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2 h1 {
+    font-size: 100px !important; 
+    color: white;
+}
+
+/*---HISTORIA---*/
+.historia-titulos {
+    text-align: center;
+    color: #007CB6;
+    padding: 20px;
+}
+
+.historia-texto{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.intro, .actu {
+    padding: 10px;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.mapa h2{
+    text-align: center;
+}
+
+.mapa iframe {
+    align-self: center;
+    padding: 30px;
+}
+
+/*---PÁGINA MUSEO---*/
+
+.museo h1{
+    text-align: center;
+    color: #8C007A;
+    padding: 20px;
+}
+
+.museo-texto {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.museo-texto li{
+    margin: 10px;
+}
+
+.seccion {
+    padding: 10px;
+}
+
+.expos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 18%;
+    background-color: #e6e7e9;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h3, .card h5 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 90%;
+    height: 64%;
+    display: block;
+    margin: 10px auto;
+}
+
+.card button{
+    margin: 10px auto;
+    width: 90%;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #8C007A;
+    color: white;
+    border-width: 0;
+    border-style: solid;
+    padding: 0 10px;
+    opacity: 50%;
+}
+
+/*.card button:hover {
+    background-color: #750266;
+}*/
+
+.celeste {
+    color: #8C007A;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #e6e7e9;
+    width: 80%;
+}
+
+.card-img {
+    width: 60%;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-texto {
+    width: 40%;
+    margin: 10px;
+}
+
+.card-texto p{
+    font-weight: normal;
+}
+
+.card-texto h5 {
+    margin: 0;
+}
+
+#obras-arte {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
+    padding: 20px; 
+}
+
+.obra {
+    width: 300px; 
+    text-align: center;
+}
+
+.obra img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.obra h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.obra p {
+    font-size: 14px;
+}
+
+
+/*---MEDIA QUERIES---*/
+
+
+@media (max-width: 952px){
+    header img {
+        width: 200px;
+        padding: 20px;
+        }
+
+    nav ul li a{
+        font-size: 16px;
+    }   
+}
+
+@media (max-width: 858px){
+
+    section {
+        width: 95%;
+    }
+
+    .checkbtn{
+        display: block;
+        
+    }
+
+    ul.menu-horizontal{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: darkcyan;
+        left: -150%;
+        text-align: left;
+    }
+
+    .menu-horizontal{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+
+    nav ul.menu-horizontal li {
+        display: block;
+        margin: 30px 0px;
+        
+        }
+
+    .menu-horizontal li a{
+        font-size: 20px;
+        color: #f9f9f9;
+    }
+
+    
+    #check:checked ~ ul.menu-horizontal{
+        left: 0;
+        margin: 0;
+        
+    }
+/*---MAIN 1---*/
+
+    .main1{
+        background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/pasaje-dardo-rocha.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 450PX;
+        width: 100%;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main1-titulo{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 0px  10px;
+    height: 250px;
+
+    }
+
+    .main1-texto {
+    color: white;
+    text-align: center;
+    width: 80%;
+    font-size: 10px;
+
+    }
+
+    /*---MAIN 2---*/
+
+    .main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    }
+
+    .main2-talleres {
+    width: 40vw;
+    height: 30vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/foto-taller-danza.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    .main2-museo {
+    width: 40vw;
+    height: 30vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./img/museo-arte.jpeg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    .main2-talleres a, .main2-museo a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    }
+
+   
+    /*---texto---*/
+
+    p.texto {
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+    font-size: 20px;;
+    text-align: center; 
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+    /*---FOOTER---*/
+
+    footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    color: #9fa6ae;
+    padding: 16px 0;
+    }
+
+    footer img {
+    width: 150px;
+    justify-content: center;
+    padding: 5px;
+    }
+
+    footer p {
+    display: flex;
+    font-weight: normal;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 12px;
+    }
+
+
+    /*---PAGINA TALLERES---*/
+
+.descripcion{
+    margin-bottom: 0;
+}
+
+    .descripcion p{
+        font-size: 16px;
+    }
+
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icono {
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .ubicacion .icono img{
+        width: 100px;
+    }
+
+    .contenedor-carrusel {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FE0065;
+    }
+    
+    .contenedor-carrusel section{
+        margin: 20px auto;
+
+    }
+    
+    .carrusel {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .texto-carrusel {
+        width: 90%;
+        height: 120px;
+        margin: 0 auto;
+    }
+    
+    .texto-carrusel p {
+        height: 20px;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    
+    .carrusel-item {
+        width: 80%; /* Cambiar ancho para pantallas pequeñas */
+        height: 100%;
+    }
+
+    .carrusel-item img {
+        height: 40%;
+    }
+    
+    .boton-carrusel {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    
+    .boton-carrusel-desactivado {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    
+    .boton-carrusel button{
+        cursor: pointer;
+        color: #1d1d1d;
+        height: 44px;
+        border-radius: 20px;
+        background-color: white;
+        border-color: #9fa6ae;
+        border-style: solid;
+        font-size: 14px;
+        padding: 0 10px;
+        font-weight: bold;
+        
+    }
+    
+    .boton-carrusel-desactivado button{
+        color: #1d1d1d;
+        height: 44px;
+        border-radius: 20px;
+        background-color: white;
+        border-color: #9fa6ae;
+        border-style: solid;
+        font-size: 14px;
+        padding: 0 10px;
+        font-weight: bold;
+        opacity: 50%;
+        
+    }
+    
+    .boton-carrusel button:hover {
+        background-color: #E6E6E6;
+    }
+    
+
+    .album-fotos{
+        align-items: center;
+        margin-bottom: 0;
+        height: 400px;
+    }
+
+    .album-fotos .slider{
+        width: 90%;
+        margin: 0;
+    }
+
+    .album-fotos .slide{
+        width: 400px;
+        padding: 10px;
+    }
+
+    .album-fotos .slide img{
+        width: 100%;
+    }
+
+    /*---P{AGINA TALLERES DANZA---*/
+
+    .cuerpo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clase ul {
+        margin: 20px;
+        padding: 0;
+    }
+
+    .clase li{
+        margin: 10px 0;
+    }
+
+    
+
+    .formulario {
+        margin: 16px auto;
+    }
+
+    .grupo {
+        width: 90%;
+    }
+
+    .grupo2 {
+        width: 90%;
+    }
+
+    .botonform {
+        width: 90%;
+    }
+
+    /*---PAGINA MUSEOS---*/
+
+    .expos {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .card-texto {
+        width: 90%;
+    }
+
+    .seccion {
+        padding: 0;
+    }
+
+    .museo-texto {
+        width: 90%;
+    }
+
+}

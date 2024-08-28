@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="../../img/favicon-Municipalidad.ico" type="image/x-icon">
+    <title>Pasaje Dardo Rocha</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a href="../../index.html"><img src="../../img/logo-municipalidad.jpeg" alt="logo-municipalidad"></a>
+            
+            <ul class="menu-horizontal">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../historia.html"> Historia </a></li>
+                <li><a href="../museo.html"> Museo </a></li>
+                <li><a href="../taller.html"> Talleres </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Danzas</h1>
+    </section>
+
+    <section class="cuerpo">
+        <div class="horarios">
+        
+            <div class="clase">
+            <h2>Ballroom Dance</h2>
+            <p>Adultos y jóvenes a partir de 12 años</p>
+            <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+    
+            <h3>Horarios</h3>
+            <ul>
+                <li>Martes de 18 a 20hs</li>
+            </ul>
+            <hr>
+            </div>
+    
+            <div class="clase">
+                <h2>Danzas Árabes Nivel 1</h2>
+                <p>A partir de 13 años</p>
+                <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Martes de 14 a 15hs</li>
+                    <li>Jueves de 14 a 15hs</li>
+                </ul>
+                <hr>
+            </div>
+    
+            <div class="clase">
+                <h2>Danzas Árabes Nivel 2</h2>
+                <p>A partir de 13 años</p>
+                <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+    
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Martes de 15 a 16hs</li>
+                    <li>Jueves de 15 a 16hs</li>
+                </ul>
+                <hr>
+            </div>
+    
+            <div class="clase">
+                <h2>Danza Show</h2>
+                <p>Adultos y jóvenes a partir de 16 años</p>
+                <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+    
+                <h3>Horarios</h3>
+                <ul>
+                    <li>
+                        Miércoles de 18 a 19:45hs
+                    </li>
+                </ul>
+                <hr>
+            </div>
+    
+            <div class="clase">
+                <h2>Danza Afro Contemporánea</h2>
+                <p>Adultos y jóvenes a partir de 15 años</p>
+                <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+                <p class="alerta">Es necesario tener experiencia en Danzas</p>
+
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Miércoles de 18:30 a 20hs</li>
+                </ul>
+                <hr>
+            </div>
+    
+            <div class="clase">
+                <h2>Danza Contemporánea e Improvisación</h2>
+                <p>Adultos</p>
+                <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+    
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Lunes y jueves de 10 a 12hs</li>
+                </ul>
+                <hr>
+            </div>
+    
+            <div class="clase">
+                <h2>Improvisación y Producción Coreográfica</h2>
+                <p>De 15 a 45 años</p>
+                <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+    
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Jueves de 11 a 12:30hs</li>
+                </ul>
+                <hr>
+            </div>
+    
+            <div class="clase">
+                <h2>Danza para Infancias</h2>
+                <p>De 8 a 12 años</p>
+                <h5>Docentes a cargo: Martina Koller, Romina Miguel, Sofia Lindón</h5>
+    
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Jueves de 17.30 a 19hs</li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    <form class="formulario" id="formularioDanza">
+        <h2>Formulario de inscripción</h2>
+            <!--Nombre-->
+            <div class="grupo">
+                <h3>Nombre Completo</h3>
+                <label for="nombre"></label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+        <!--Correo electrónico-->
+            <div class="grupo">
+                <h3>Correo Electrónico</h3>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" required>
+            
+        
+    
+        <!--Seleccion de inscripción-->
+        <div class="grupo2">
+            <h3>Seleccionar taller</h3>
+
+            <label for="Taller de danza"></label>
+            <select name="taller" id="taller">
+                <option value="Ballroom">Ballroom Dance</option>
+                <option value="Arabes1">Danzas Árabes Nivel 1</option>
+                <option value="Arabes2">Danzas Árabes Nivel 2</option>
+                <option value="Show">Danza Show</option>
+                <option value="Afro">Danza Afro Contemporánea</option>
+                <option value="ContemImpro">Danza Contemporánea e Improvisación</option>
+                <option value="ImproProdu">Improvisación y Producción Coreográfica</option>
+                <option value="Infancias">Danza para Infancias</option>
+
+            </select>
+        </div>
+
+        <!--Menu desplegable para que seleccionen el horario-->
+        <div class="grupo2">
+            <h3>Seleccionar horario</h3>
+    
+        <label for="horario"></label>
+            <select name="horario" id="horario">
+                <option value="Lunes de 14:00hs a 16:00hs">Lunes de 14:00hs a 16:00hs</option>
+                <option value="Miercoles de 15:00hs a 17:00hs">Miercoles de 15:00hs a 17:00hs</option>
+                <option value="Viernes de 16:00hs a 18:00hs">Viernes de 16:00hs a 18:00hs</option>
+            </select>
+    
+        </div>
+        
+    
+    
+        <!-- Aceptar Términos y Condiciones -->
+        <div class="grupo2">
+            <h3>Términos y condiciones</h3>
+            <label for="terminos">
+                <input type="checkbox" class="check" id="terminos" name="terminos" required> Acepto los términos y condiciones
+            </label>
+        
+        </div>
+
+        <div class="botonform">
+        <!-- Botón de Envío -->
+        <input type="submit" class="submit-btn" id="submit" value="Inscribirse">
+        </div>
+
+        </div>
+
+        <div class="usuariosInscriptos">
+            <h2>¡Estas personas ya forman parte de nuestra comunidad!</h2>
+            <ul id="listaUsers"></ul>
+        </div>
+    </section>
+    </form>
+
+    <footer>
+        <img src="../../img/Logo-municipalidad-_-Blanco-FOOTER-1.png" alt="">
+        <p>
+            Centro Cultural Pasaje Dardo Rocha 50 entre 6 y 7 | de 9 a 19hs | Tel. 221 4252101 | correo electrónico: escuelatallerlp@gmail.com
+        </p>
+    </footer>
+
+    <script src="../../dom2.js"></script>
+</body>
+</html>
